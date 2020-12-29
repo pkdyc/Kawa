@@ -1,0 +1,8 @@
+ghost/PlayerTest.java
+ ghost.PlayerTest
+ghost/CreatureTest.java
+ ghost.CreatureTest
+ghost/AppTest.java
+ ghost.AppTest
+ghost/GhostTest.java
+ ghost.GhostTest

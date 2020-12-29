@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ghost.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-13T10:01:35" hostname="pkdyc-Surface-Pro" time="0.661">
+  <properties/>
+  <testcase name="constructor()" classname="ghost.AppTest" time="0.322"/>
+  <testcase name="readConfig()" classname="ghost.AppTest" time="0.337"/>
+  <system-out><![CDATA[change target
+change target
+change target
+change target
+change target
+change target
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

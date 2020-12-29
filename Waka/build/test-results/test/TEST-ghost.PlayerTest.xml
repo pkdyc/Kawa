@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ghost.PlayerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-13T10:01:35" hostname="pkdyc-Surface-Pro" time="0.955">
+  <properties/>
+  <testcase name="changeIcon()" classname="ghost.PlayerTest" time="0.256"/>
+  <testcase name="meetGhost()" classname="ghost.PlayerTest" time="0.33"/>
+  <testcase name="findPossibleTurn()" classname="ghost.PlayerTest" time="0.365"/>
+  <system-out><![CDATA[change target
+change target
+change target
+change target
+lose your life
+change target
+change target
+change target
+change target
+change target
+change target
+change target
+change target
+]]></system-out>
+  <system-err><![CDATA[java.lang.NullPointerException
+	at processing.core.PGraphics.image(PGraphics.java:3770)
+	at processing.core.PApplet.image(PApplet.java:12611)
+	at ghost.Ghost.display(Ghost.java:421)
+	at ghost.GameManage.lambda$show_map$1(GameManage.java:192)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at ghost.GameManage.show_map(GameManage.java:192)
+	at ghost.GameManage.draw(GameManage.java:279)
+	at ghost.App.draw(App.java:74)
+	at processing.core.PApplet.handleDraw(PApplet.java:2426)
+	at processing.awt.PSurfaceAWT$12.callDraw(PSurfaceAWT.java:1557)
+	at processing.core.PSurfaceNone$AnimationThread.run(PSurfaceNone.java:316)
+]]></system-err>
+</testsuite>
